@@ -1,0 +1,54 @@
+.layoutContainer
+{
+    height: 100vh;
+    width: 100%;
+}
+
+.header
+{
+    color: rgb(189, 186, 40);
+    background-color: rgb(29, 29, 29);
+    display: flex;
+    justify-content: center;
+}
+
+.bodyContainer
+{
+    display: grid;
+    grid-template-columns: 0.10fr 1.00fr;
+    grid-template-areas: "nav outlet";
+}
+
+.bodyNav
+{
+    grid-area: "nav";
+    display: flex;
+    height: auto;
+    border: 1px black solid;
+}
+
+.bodyOutlet
+{
+    grid-area: "outlet";
+    border-bottom: 1px black solid;
+    border-top: 1px black solid;
+    border-right: 1px black solid;
+    padding: 0.5%;
+}
+
+.footer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: rgb(189, 186, 40);
+    background-color: rgb(29, 29, 29);
+}
+
+.footerWriting
+{
+    padding-left: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}

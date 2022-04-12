@@ -1,0 +1,250 @@
+.villageContainer
+{
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1.00fr 1.00fr;
+    grid-template-rows: 0.50fr 1.00fr 1.00fr 1.00fr 1.00fr 1.00fr;
+}
+
+.villageTitleContainer
+{
+    height: 100%;
+    width: 100%;
+    grid-column: 1/3;
+    grid-row: 1;
+    display: flex;
+    align-items: center;
+}
+
+.villageTitlePrimary
+{}
+
+.villageTitleSecondary
+{
+    padding-left: 8px;
+}
+
+.campfire
+{
+    height: 100%;
+    width: 100%;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.fireButton
+{
+    background-image: URL("./assets/campFire\ 330w\ x\ 250h.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+.fireButton:hover
+{
+    opacity: 50%;
+    border: 1px red solid;
+}
+
+.trainingGrounds
+{
+    height: 100%;
+    width: 100%;
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.trainButton
+{
+    background-image: URL("./assets/trainingPit\ 290w\ x\ 250h.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+.trainButton:hover
+{
+    opacity: 50%;
+    border: 1px blue solid;
+}
+
+.fightingPit
+{
+    height: 100%;
+    width: 100%;
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.pitButton
+{
+    background-image: URL("./assets/fightingPit\ 330w\ x\ 245h.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+.pitButton:hover
+{
+    opacity: 50%;
+    border: 1px blue solid;
+}
+
+.merchantCart
+{
+    height: 100%;
+    width: 100%;
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.cartButton
+{
+    background-image: URL("./assets/merchCart\ 280w\ x\ 245h.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+.cartButton:hover
+{
+    opacity: 50%;
+    border: 1px red solid;
+}
+
+.tavern
+{
+    height: 100%;
+    width: 100%;
+    grid-column: 1;
+    grid-row: 5;
+}
+
+.tavernButton
+{
+    background-image: URL("./assets/tavern300w\ x\ 250h.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+.tavernButton:hover
+{
+    opacity: 50%;
+    border: 1px blue solid;
+}
+
+.travelPoint
+{
+    height: 100%;
+    width: 100%;
+    grid-column: 2;
+    grid-row: 5;
+}
+
+.travelButton
+{
+    background-image: URL("./assets/flightPost\ 330w\ x\ 250h.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+.travelButton:hover
+{
+    opacity: 50%;
+    border: 1px red solid;
+}
+
+.fort
+{
+    height: 100%;
+    width: 100%;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.fortButton
+{
+    background-image: URL("./assets/fort\ 320w\ x\ 255h.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+.fortButton:hover
+{
+    opacity: 50%;
+    border: 1px blue solid;
+}
+
+.fountain
+{
+    height: 100%;
+    width: 100%;
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.fountButton
+{
+    background-image: URL("./assets/fountain\ 330w\ x\ 240h.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+.fountButton:hover
+{
+    opacity: 50%;
+    border: 1px red solid;
+}
+
+.fusionPool
+{
+    height: 100%;
+    width: 100%;
+    grid-column: 1/3;
+    grid-row: 6;
+}
+
+.fusionButton
+{
+    background-image: URL("./assets/fusionPool.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+.fusionButton:hover
+{
+    opacity: 50%;
+    border: 1px purple solid;
+}
