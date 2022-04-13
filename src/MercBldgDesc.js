@@ -127,18 +127,7 @@ export const FusionPool = () =>
             mercenary (fusion or not). Now you want to unlock the legendary fusion mercenary Princess. To do that you'll need excess coins from Rockhide Boar plus two other specific epic 
             fusion mercenaries, plus additional excess coins from any epic merc (fusion or not).
             <br/>
-            If you use these numbers above and assume 500 of each coin to craft a legendary; rare coins convert at 2:1 to rare fusion coins; epic fusion coins are gained by paying 1 
-            of each specific coin and 1 "general" rare coin for 1 epic fusion coin; and legendary coins are gained the same way, it would cost you...
-            <br/>
-              2,950 rare non-fusion coins to unlock and max a rare fusion merc
-             16,300 rare non-fusion coins to unlock an epic fusion merc
-             40,600 rare non-fusion coins to unlock and max an epic fusion merc
-            193,800 rare non-fusion coins to unlock a legendary fusion merc
-            291,000 rare non-fusion coins to unlock and max a legendary fusion merc
-            <br/><br/>
-            Before jumping on me about how absurd of a cost that is for one legendary, bear in mind that you'll still have four maxed rare mercs and three maxed epic mercs to show 
-            for that effort. Also, if we assume there's some overlap between required mercs (eg the Elder Forest Bear epic merc also requires the Young Forest Bear and Murloc Lurker) 
-            then it reduces the cost of each legendary after the first.
+            It obviously wouldn't be exactly this, but you get the general idea I'm going for, I hope.
         </p>
     );
 }

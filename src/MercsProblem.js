@@ -5,7 +5,7 @@ function MercsProblem(props)
     return (
         <div className="mercProblemContainer">
             <div className="mercProblemTitle">
-                <h1>Diagnosing the Problem</h1>
+                <h1>Diagnosing the Problem: There Needs To Be Another Chase</h1>
             </div>
             <div className="mercProblemSansTitle">
                 <div className="mercProblemApproachSubtitle">
